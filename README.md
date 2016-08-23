@@ -1,3 +1,3 @@
 # nodetogetherBOS
 
-> cats
+cats
