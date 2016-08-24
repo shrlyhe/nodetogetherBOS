@@ -4,7 +4,15 @@ var express = require('express');
 
 var app = express();
 
+var rules = require('./app');
+app.use(rules);
+
 
 app.listen(port,host);
 
 console.log('Server running %s:%d...', host, port);
+
+module.exports = app;
+
+
+
